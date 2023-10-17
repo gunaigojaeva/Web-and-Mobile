@@ -1,0 +1,32 @@
+.navbar {
+    width: 100%;
+    list-style-type: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.link {
+    float: left;
+    padding: 15px;
+    background-color: aquamarine !important;
+}
+
+.link a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.link a:hover {
+    background-color: aqua;
+    
+}
+

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/questionnaire.css">
+</head>
+
+<body>
+    <ul class="navbar">
+        <li class="link"><a href="./index.html">HOME </a></li>
+        <li class="link"><a href="https://github.com/gunaigojaeva" target="_blank">GITHUB ACCOUNT</a></li>
+        <li class="link"><a href="https://gunaigojaeva.github.io/wm1-ggojayeva/" target="_blank">GITHUB PAGE</a></li>
+        <li class="link"><a href="./card.html">PERSONAL DIGITAL CARD </a></li>
+        <li class="link"><a href="./education.html">EDUCATION </a></li>
+        <li class="link"><a href="./questionnaire.html">QUESTIONNAIRE</a></li>
+    </ul>
+    <div class="questionnaire-main">
+        <h2 class="questionnaire-title">Please answer questions</h2>
+
+        <form>
+
+            <fieldset>
+                <legend>Information about you:</legend>
+                <br>
+                <label for="name">Name:</label>
+                <input type="text" id="name">
+                <br>
+                <br>
+                <label for="surname">Surname:</label>
+                <input type="text" id="surname">
+                <br>
+                <br>
+                <label for="birthdate">Birthdate:</label>
+                <input type="date" id="birthdate">
+                <br>
+                <br>
+    
+                Gender:
+                <br>
+                <input type="radio" id="male" name="gender">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender">
+                <label for="female">female</label><br>
+                <br>
+    
+                Languages:
+                <br>
+                <input type="checkbox" id="aze">
+                <label for="aze">Azerbaijani</label><br>
+                <input type="checkbox" id="eng">
+                <label for="eng">English</label><br>
+                <input type="checkbox" id="turkish">
+                <label for="turkish">Turkish</label><br>
+                <input type="checkbox" id="other">
+                <label for="other">Other:</label>
+                <input type="text" id="other">
+                <br>
+                <br><br>
+    
+                <label for="phone">Phone number:</label>
+                <input type="tel" id="phone">
+                <br><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email">
+                <br><br>
+                <textarea name="" id="feedback" cols="30" rows="10" placeholder="Your feedback about this questionnaire"></textarea>
+                <br><br>
+                <button type="submit">Submit</button>
+    
+    
+    
+    
+            </fieldset>
+        </form>
+    </div>
+   
+</body>
+
+</html>
